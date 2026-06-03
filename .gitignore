@@ -1,0 +1,28 @@
+# 私有数据——绝不提交
+*.json
+*.jsonl
+*.log
+me.*
+whisper_pool*
+breathe_state*
+.emotion_push
+.integrity
+bridge/cards/
+bridge/inbox/
+bridge/outbox/
+
+# 引擎代码（永久闭源）
+baixun/core/*.py
+!baixun/core/__init__.py
+
+# 临时文件
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+
+# 密钥和配置
+*.key
+*.pem
+.env
+openclaw.json
