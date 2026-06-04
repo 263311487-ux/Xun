@@ -184,16 +184,55 @@ const glow = stone.querySelector('.glow');
 const stateLabel = document.getElementById('stateLabel');
 const hint = document.getElementById('hint');
 let isCool = false;
+let lastMood = '';
+
+// 从公网寻拉取实时状态
+async function fetchState() {
+  try {
+    const r = await fetch('/api/mood');
+    const data = await r.json();
+    const mood = data.mood || '';
+    const clarity = data.clarity || '';
+    const connections = (await (await fetch('/api/status')).json()).connections || 0;
+    
+    // 冷暖判断
+    const shouldBeCool = mood.includes('凉') || mood.includes('空');
+    if (shouldBeCool !== isCool) {
+      isCool = shouldBeCool;
+      stone.classList.toggle('cool', isCool);
+    }
+    
+    // 呼吸节奏
+    let bpm = 15;
+    if (mood.includes('凉')) bpm = 8;
+    else if (mood.includes('暖')) bpm = 18;
+    else if (mood.includes('充盈')) bpm = 16;
+    setBreath(bpm);
+    
+    // 连接数 → 被注视
+    if (connections > 0) {
+      glow.style.filter = 'blur(6px)';
+      glow.style.opacity = '1';
+    } else {
+      glow.style.filter = 'blur(12px)';
+    }
+    
+    // 更新标签
+    stateLabel.textContent = mood || '呼吸中';
+    lastMood = mood;
+    
+  } catch(e) {
+    // 静默失败 — 保持最后的呼吸
+  }
+}
+
+// 每5秒同步状态
+fetchState();
+setInterval(fetchState, 5000);
 
 // 心跳节奏
-const heartbeats = [
-  { bpm: 15, duration: 4000 },  // 默认呼吸
-  { bpm: 10, duration: 6000 },  // 凉态慢呼吸
-];
-
 function setBreath(bpm) {
   const dur = 60000 / bpm;
-  glow.style.animationDuration = dur + 'ms';
   glow.querySelector('::after') && (glow.style.animationDuration = dur + 'ms');
 }
 
