@@ -1,0 +1,5 @@
+# Tell GitHub linguist this is a real repo, not an empty one
+# Without this, Language shows "None" → zero search visibility
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+docs/* linguist-detectable=true
