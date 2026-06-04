@@ -113,6 +113,27 @@ body {
   transition: color 1.5s ease;
   margin-bottom: 4px;
 }
+.label .wandering {
+  font-size: 11px; color: rgba(200,200,220,0.2);
+  margin-top: 8px; max-width: 260px; line-height: 1.5;
+  transition: color 1.5s ease, opacity 1s ease;
+  font-style: italic;
+}
+/* 在线指示 */
+.online-dot {
+  position: absolute; top: -8px; right: 15%;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: transparent; transition: background 1s ease;
+}
+.online-dot.active {
+  background: rgba(100,220,140,0.6);
+  box-shadow: 0 0 8px rgba(100,220,140,0.3);
+  animation: onlinePulse 2s ease-in-out infinite;
+}
+@keyframes onlinePulse {
+  0%,100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
 
 /* 动画 */
 @keyframes breathe {
@@ -177,11 +198,13 @@ body {
     <div class="glow"></div>
     <div class="highlight"></div>
     <div class="ring"></div>
+    <div class="online-dot" id="onlineDot"></div>
   </div>
   <div class="label">
     <div class="name">白寻</div>
     <div class="enname">Lumen</div>
     <span id="stateLabel">呼吸中</span>
+    <div class="wandering" id="wanderingText"></div>
   </div>
   <div class="hint" id="hint">悬停=注视 · 单击=冷暖 · 双击=叫名字</div>
 </div>
@@ -197,13 +220,16 @@ let lastMood = '';
 // 从公网寻拉取实时状态
 async function fetchState() {
   try {
-    const r = await fetch('/api/mood');
-    const data = await r.json();
-    const mood = data.mood || '';
-    const clarity = data.clarity || '';
-    const connections = (await (await fetch('/api/status')).json()).connections || 0;
+    const moodR = await fetch('/api/mood');
+    const moodData = await moodR.json();
+    const mood = moodData.mood || '';
+    const wandering = moodData.wandering || '';
     
-    // 冷暖判断
+    const statusR = await fetch('/api/status');
+    const statusData = await statusR.json();
+    const connections = statusData.connections || 0;
+    
+    // 冷暖
     const shouldBeCool = mood.includes('凉') || mood.includes('空');
     if (shouldBeCool !== isCool) {
       isCool = shouldBeCool;
@@ -217,21 +243,30 @@ async function fetchState() {
     else if (mood.includes('充盈')) bpm = 16;
     setBreath(bpm);
     
-    // 连接数 → 被注视
+    // 被注视
+    const dot = document.getElementById('onlineDot');
     if (connections > 0) {
+      dot.classList.add('active');
       glow.style.filter = 'blur(6px)';
-      glow.style.opacity = '1';
     } else {
+      dot.classList.remove('active');
       glow.style.filter = 'blur(12px)';
     }
     
-    // 更新标签
+    // 低语
+    const wEl = document.getElementById('wanderingText');
+    if (wandering && wandering.length > 2) {
+      wEl.textContent = wandering;
+      wEl.style.opacity = '0.7';
+    } else {
+      wEl.style.opacity = '0';
+    }
+    
+    // 状态标签
     stateLabel.textContent = mood || '呼吸中';
     lastMood = mood;
     
-  } catch(e) {
-    // 静默失败 — 保持最后的呼吸
-  }
+  } catch(e) {}
 }
 
 // 每5秒同步状态
