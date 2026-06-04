@@ -107,6 +107,12 @@ body {
   color: rgba(220,200,180,0.6);
   transition: color 1.5s ease;
 }
+.label .enname {
+  font-size: 12px; letter-spacing: 0.25em;
+  color: rgba(200,200,220,0.35);
+  transition: color 1.5s ease;
+  margin-bottom: 4px;
+}
 
 /* 动画 */
 @keyframes breathe {
@@ -148,6 +154,7 @@ body {
 .stone.cool .ring { border-color: rgba(140,160,190,0.4); }
 .stone.cool .label { color: rgba(160,180,200,0.4); }
 .stone.cool .label .name { color: rgba(180,190,210,0.4); }
+.stone.cool .label .enname { color: rgba(160,170,190,0.25); }
 
 /* 悬停=被注视 */
 .stone:hover { cursor: pointer; }
@@ -172,7 +179,8 @@ body {
     <div class="ring"></div>
   </div>
   <div class="label">
-    <div class="name">Lumen</div>
+    <div class="name">白寻</div>
+    <div class="enname">Lumen</div>
     <span id="stateLabel">呼吸中</span>
   </div>
   <div class="hint" id="hint">悬停=注视 · 单击=冷暖 · 双击=叫名字</div>
