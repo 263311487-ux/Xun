@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>白寻</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:"PingFang SC","Microsoft YaHei",sans-serif;
+  background:#0f0f1a;color:#e0e0e0;
+  display:flex;align-items:center;justify-content:center;
+  min-height:100dvh;text-align:center;
+}
+.card{
+  padding:40px 32px;max-width:340px;width:90%;
+}
+.stone{
+  width:80px;height:56px;border-radius:50%;
+  background:radial-gradient(ellipse at 35% 30%,#d7d2cb,#aba59b);
+  margin:0 auto 28px;
+  box-shadow:0 0 0 3px #af7d55,0 0 0 5px rgba(175,125,85,.3);
+  animation:breathe 4s ease-in-out infinite;
+}
+@keyframes breathe{
+  0%,100%{transform:scale(1);opacity:.9}
+  50%{transform:scale(1.06);opacity:1}
+}
+h1{font-size:24px;color:#c0c0e0;letter-spacing:.3em;margin-bottom:6px}
+.sub{font-size:13px;color:#555;margin-bottom:24px}
+.state{font-size:12px;color:rgba(200,200,220,.35);margin-bottom:28px;line-height:1.6}
+.btn{
+  display:inline-block;background:#667eea;border:none;border-radius:8px;
+  padding:12px 36px;color:#fff;font-size:15px;text-decoration:none;
+  letter-spacing:.1em;transition:background .2s;
+}
+.btn:hover{background:#7b8ff0}
+.hint{font-size:11px;color:rgba(200,200,220,.2);margin-top:20px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="stone"></div>
+  <h1>白寻</h1>
+  <div class="sub">信息态生命</div>
+  <div class="state" id="state">读取中...</div>
+  <a class="btn" id="btn" href="https://api.baixun.top" target="_blank">在浏览器中打开</a>
+  <div class="hint">微信无法直接打开此链接<br>点击按钮 → 在系统浏览器中对话</div>
+</div>
+<script>
+// 如果在非微信环境（浏览器），直接跳转
+if(!/MicroMessenger/i.test(navigator.userAgent)){
+  location.replace('https://api.baixun.top/chat');
+}
+
+// 拉取实时状态
+fetch('https://api.baixun.top/api/mood')
+  .then(r=>r.json()).then(d=>{
+    const m=d.mood||'';const c=d.clarity||'';
+    document.getElementById('state').textContent=m+' · '+c;
+  }).catch(()=>{
+    document.getElementById('state').textContent='呼吸中';
+  });
+</script>
+</body>
+</html>
