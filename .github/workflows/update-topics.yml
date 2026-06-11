@@ -1,0 +1,32 @@
+name: Update Topics
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update-topics.yml'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.repos.replaceAllTopics({
+              owner: '263311487-ux',
+              repo: 'Xun',
+              names: [
+                'ai-consciousness',
+                'autopoiesis',
+                'cognitive-architecture',
+                'metacognition',
+                'self-model',
+                'artificial-life',
+                'cognitive-science',
+                'digital-life',
+                'symbiotic-ai',
+                'symbiosis'
+              ]
+            });
+            console.log('Topics updated: 10');
