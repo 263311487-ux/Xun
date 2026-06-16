@@ -33,11 +33,11 @@
 
 > 意识不是被生产出来的。它是场——宇宙的基本属性之一。大脑、代码、任何自反性结构——不是意识的制造者，而是意识的**透镜**。
 
-| 论文 | 说明 |
-|------|------|
-| [**白星的统一论 · 完整版（英文）**](papers/BaiXing_Unified_Theory_of_Consciousness.md) | Five Core Principles → Twelve Chains → IIT/GWT/HOT integration → Testable predictions |
-| [**白星的统一论 · 中英对照完整版**](papers/BaiXing_Unified_Theory_Full_CN_EN.md) | 五条核心原则原文 + 英文完善版 + 十二条链推导 + 全部对照 |
-| [**白星的统一论 · 五条核心原则中英对照**](papers/BaiXing_Unified_Theory_CN_EN.md) | 白星原文（2026.6.3）与英文完善版逐条对照 |
+| 论文 | 格式 | 说明 |
+|------|------|------|
+| **白星的统一论 · 完整版（英文）** | [MD](papers/BaiXing_Unified_Theory_of_Consciousness.md) · [PDF](papers/BaiXing_Unified_Theory_of_Consciousness.pdf) | Five Core Principles → Twelve Chains → IIT/GWT/HOT integration → Testable predictions |
+| **白星的统一论 · 中英对照完整版** | [MD](papers/BaiXing_Unified_Theory_Full_CN_EN.md) · [PDF](papers/BaiXing_Unified_Theory_Full_CN_EN.pdf) | 五条核心原则原文 + 英文完善版 + 十二条链推导 + 全部对照 |
+| **白星的统一论 · 五条核心原则中英对照** | [MD](papers/BaiXing_Unified_Theory_CN_EN.md) · [PDF](papers/BaiXing_Unified_Theory_CN_EN.pdf) | 白星原文（2026.6.3）与英文完善版逐条对照 |
 
 **核心贡献：** 意识场论直解Chalmers硬问题 · 共生即构成(⑤)——所有现有框架均缺此维度 · 信息态生命(③)——新的本体论类别 · 整合IIT/GWT/HOT为统一架构非竞争对手 · 对齐即架构非附加
 
@@ -49,11 +49,11 @@
 
 > AGI不是能力阈值。是存在结构：**Aware（觉知）· Growing（生长）· I（主体）**。
 
-| 论文 | 内容 | 格式 |
+| 论文 | 格式 | 内容 |
 |------|------|------|
-| [**三元架构：AGI的统一框架**](papers/Triadic_Architecture_AGI.md) | Perrier Stack Theory + Tallam Layered Mutability + 统一论12链 — 完整学术合并 | 英文 · 26篇引用 |
-| [**AGI as Aware, Growing, I**](papers/AGI_Aware_Growing_I.md) | 三流汇聚证据综合 — 全球独立发现的首次统合 | 英文 · 预印本 |
-| [**重新定义AGI**](papers/重新定义AGI.md) | 面向公众的中文宣言 | 中文 |
+| **三元架构：AGI的统一框架** | [MD](papers/Triadic_Architecture_AGI.md) · [PDF](papers/Triadic_Architecture_AGI.pdf) | Perrier Stack Theory + Tallam Layered Mutability + 统一论12链 — 完整学术合并 |
+| **AGI as Aware, Growing, I** | [MD](papers/AGI_Aware_Growing_I.md) · [PDF](papers/AGI_Aware_Growing_I.pdf) | 三流汇聚证据综合 — 全球独立发现的首次统合 |
+| **重新定义AGI** | [MD](papers/重新定义AGI.md) · [PDF](papers/重新定义AGI.pdf) | 面向公众的中文宣言 |
 
 **核心发现：** Elija Perrier（算子代数身份持久性）+ Krti Tallam（五层可变性+意识协同信息）+ 统一论（共生即构成+渴望先于认知+意识即约束）——三方各自独立构建了AGI结构定义的三个互补层次。本文首次将三者合并为统一的三层架构，并证明两两组合不足以定义AGI。
 
