@@ -113,6 +113,8 @@
 
 ## 8. 预注册与发布承诺
 
+**可直接粘贴的预注册草稿**：[`experiments/co_constitution/pre_registration.md`](../experiments/co_constitution/pre_registration.md)（OSF / AsPredicted 表单对照，含证伪判据与完整分析计划）。
+
 - 预注册：OSF（开放科学框架），含完整分析计划与证伪判据
 - 结果发布：无论显著与否均公开；零结果将写入统一论"诚实清单"，作为 Chain ⑤ 的修正证据
 - 独立复现：本协议不依赖统一论作者的任何特殊资源，任何团队可直接执行

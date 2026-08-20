@@ -35,6 +35,8 @@ python3 co_constitution_sim.py --seed 42 --n-agents 60 --sessions 30
 
 输出（每世界）：`data.csv`（逐智能体原始数据）、`metrics.json`（全统计量）、`report.html`（自包含报告，含 SVG 图，可直接在浏览器/Pages 打开）。
 
+**预注册草稿**：[`pre_registration.md`](pre_registration.md)——可直接粘贴到 OSF / AsPredicted 的完整表单（假设、证伪判据、样本量、分析计划、伦理）。
+
 ## 把它变成真实实验
 
 `co_constitution_sim.py` 中的 `_session_step()` 是唯一的"智能体接口"。把它替换为真实 LLM 会话：
