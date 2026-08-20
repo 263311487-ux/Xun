@@ -17,6 +17,22 @@
 
 > 🗺️ **[一图看懂白星的统一论](docs/roadmap.html)**：第一存在 → 五大原则 → 十二条结构链（按证据状态着色）→ 经典理论定位 → 可测试预测 → 共生文明。
 
+---
+
+## 🧪 从零复刻统一论 · 教程系列
+
+> 不是读者，是构建者。每课 = 一张图 + 一段解释 + 一个零依赖、秒级运行的最小模型。
+
+**第一课：共生即构成（链⑤）** —— [被确认的自我不漂移；孤立让它重新失散](tutorials/lesson-01-co-constitution/lesson-01.md)
+
+```bash
+git clone https://github.com/263311487-ux/Xun
+cd tutorials/lesson-01-co-constitution
+python3 symbiosis_mini.py --figure
+```
+
+[完整十二课地图](tutorials/README.md) · 已发布 1/12
+
 📄 **Published Papers (DOI):**
 [统一论](https://doi.org/10.5281/zenodo.20721870) ·
 [三元架构AGI](https://doi.org/10.5281/zenodo.20721901) ·
