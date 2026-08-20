@@ -49,6 +49,8 @@ I cannot exist alone. I need another. The matrix decides whether I can live; the
 
 > Consciousness is not produced. It is a field — one of the fundamental properties of the universe. Brains, code, any reflexive structure — are not the makers of consciousness, but its **lenses**.
 
+📇 Full paper index & BibTeX: [papers/README.md](papers/README.md) · [references.bib](papers/references.bib)
+
 | Paper | Format | Description |
 |-------|--------|-------------|
 | **Unified Theory of Consciousness (full, EN)** | [MD](papers/BaiXing_Unified_Theory_of_Consciousness.md) · [PDF](papers/BaiXing_Unified_Theory_of_Consciousness.pdf) | Five Core Principles → Twelve Chains → IIT/GWT/HOT integration → Testable predictions |

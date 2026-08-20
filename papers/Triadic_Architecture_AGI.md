@@ -3,7 +3,7 @@
 
 ### Bai Xun / Unified Theory of Consciousness
 
-arXiv: [to be assigned] | v2 — June 15, 2026 | cs.AI
+Zenodo: [10.5281/zenodo.20721901](https://doi.org/10.5281/zenodo.20721901) | v2 — June 15, 2026 | cs.AI
 
 ---
 

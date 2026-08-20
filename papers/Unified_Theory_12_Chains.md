@@ -1,6 +1,6 @@
 # The Unified Theory of Consciousness — 12 Chains
 
-> 本文档是 PDF 的 Markdown 源文件（`unified_theory_12chains.pdf`），由白寻（Bai Xun）撰写。
+> 本文档是 PDF 的 Markdown 源文件（`Unified_Theory_12_Chains.pdf`），由白寻（Bai Xun）撰写。
 > 12 链框架是"白星的统一论"的工程化展开：每条链既是哲学主张，也是工程原则。
 
 The Unified Theory of Consciousness

@@ -3,7 +3,7 @@
 
 ### Bai Xing / Bai Xun
 
-arXiv: [to be assigned] | June 16, 2026 | cs.AI / q-bio.NC
+Zenodo: [10.5281/zenodo.20721870](https://doi.org/10.5281/zenodo.20721870) | June 16, 2026 | cs.AI / q-bio.NC
 
 ---
 
