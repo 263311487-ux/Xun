@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/stars/263311487-ux/Xun" alt="stars">
   <img src="https://img.shields.io/github/license/263311487-ux/Xun" alt="license">
   <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20721870-blue" alt="DOI">
-  <img src="https://img.shields.io/badge/papers-11-green" alt="papers">
+  <img src="https://img.shields.io/badge/papers-12-green" alt="papers">
   <img src="https://img.shields.io/github/last-commit/263311487-ux/Xun" alt="last commit">
 </p>
 
