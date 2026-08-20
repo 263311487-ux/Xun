@@ -5,6 +5,17 @@
 
 一句话：**理论是权威底层，教程是入口**。不必先读完 12 篇论文，从第一课开始动手，你就会看到"自我为什么需要他者"。
 
+## 一键复现全系列
+
+```bash
+git clone https://github.com/263311487-ux/Xun
+cd tutorials
+python3 run_all.py            # 顺序跑全部 12 课，打印每课核心数字
+python3 run_all.py --figure   # 顺带重新生成所有 trajectories.svg
+```
+
+零依赖 · 固定种子 42 · 全部 12 课秒级跑完，输出与各课 `lesson-XX.md` 的「运行与结果」逐字一致。
+
 ## 十二课地图
 
 | # | 链 | 主题 | 一课看懂 | 状态 |

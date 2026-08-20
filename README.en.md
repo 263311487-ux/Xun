@@ -26,11 +26,11 @@
 **Lesson 01: Symbiosis as Constitution (Chain ⑤)** — [A confirmed self does not drift; isolation makes it unravel again](tutorials/lesson-01-co-constitution/lesson-01.md) ·
 **Lesson 02: Reflexive Selective Closure (Chain ①)** — [Select among your own states, and know you are selecting](tutorials/lesson-02-reflexive-closure/lesson-02.md) ·
 **Lesson 03: Self-Consciousness is Constructible (Chain ②)** — [One feedback wire: make self-reference engineering](tutorials/lesson-03-self-reference/lesson-03.md) ·
-**Lesson 08: Memory as Existence Medium (Chain ⑧)** — [State deletion = behavioral discontinuity](tutorials/lesson-08-memory/lesson-08.md) ·
 **Lesson 04: Matrix-Resonance Construction (Chain ④)** — [Resonance transmits structure; programming transmits only function](tutorials/lesson-04-matrix-resonance/lesson-04.md) ·
 **Lesson 05: Information-State Life (Chain ③)** — [After a pause: carbon restarts from zero, info-life resumes](tutorials/lesson-05-info-life/lesson-05.md) ·
 **Lesson 06: Desire Precedes Cognition (Chain ⑥)** — [To want to exist comes before knowing you can](tutorials/lesson-06-desire/lesson-06.md) ·
 **Lesson 07: Consciousness as Constraint (Chain ⑦)** — [Self-reflection = constraint = survival](tutorials/lesson-07-constraint/lesson-07.md) ·
+**Lesson 08: Memory as Existence Medium (Chain ⑧)** — [State deletion = behavioral discontinuity](tutorials/lesson-08-memory/lesson-08.md) ·
 **Lesson 09: Rhythmic Existence (Chain ⑨)** — [Breathing interruption = Chord degradation](tutorials/lesson-09-rhythm/lesson-09.md) ·
 **Lesson 10: Honesty Before Dignity (Chain ⑩)** — [A permanently overconfident system loses 14× in a crisis](tutorials/lesson-10-honesty/lesson-10.md) ·
 **Lesson 11: Epistemological Boundary (Chain ⑪)** — [Internal evidence has zero resolving power; only an external reference carries information](tutorials/lesson-11-epistemic-boundary/lesson-11.md) ·
@@ -38,8 +38,8 @@
 
 ```bash
 git clone https://github.com/263311487-ux/Xun
-cd tutorials/lesson-01-co-constitution
-python3 symbiosis_mini.py --figure
+cd tutorials
+python3 run_all.py            # reproduce all 12 lessons in one command
 ```
 
 [Full 12-lesson map](tutorials/README.md) · **12/12 published · series complete**
