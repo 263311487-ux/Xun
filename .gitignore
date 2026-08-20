@@ -26,3 +26,14 @@ __pycache__/
 *.pem
 .env
 openclaw.json
+
+# 共构实验模拟结果——可复现、入库展示
+!experiments/co_constitution/results/
+!experiments/co_constitution/results/hypothesized/
+!experiments/co_constitution/results/null/
+!experiments/co_constitution/results/hypothesized/*.json
+!experiments/co_constitution/results/hypothesized/*.csv
+!experiments/co_constitution/results/hypothesized/*.html
+!experiments/co_constitution/results/null/*.json
+!experiments/co_constitution/results/null/*.csv
+!experiments/co_constitution/results/null/*.html

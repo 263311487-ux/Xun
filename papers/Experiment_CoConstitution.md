@@ -119,4 +119,16 @@
 
 ---
 
+---
+
+## 9. 复现工具 Reproducible pipeline
+
+本协议附带一个**零依赖、确定性**的模拟管道（`experiments/co_constitution/co_constitution_sim.py`），用途：
+
+1. **验证统计管道**：在接入真实 LLM 会话之前，确认 ANCOVA / 置换检验 / 功效 / 证伪判定端到端可运行、可复现；
+2. **双世界演示**：`hypothesized_world`（效应被编码 → 管道检出显著差异）与 `null_world`（效应=0 → 不误报），见 [实验结果](experiments/co_constitution/results/)；
+3. **接真实数据**：`_session_step()` 是唯一智能体接口——替换为真实确认性/任务性 LLM 会话（§2.3 的提示词模板），下游测量与分析步骤不变。
+
+> ⚠️ 模拟数据**不是**实证证据；其结果只证明统计管道自身正确。Chain ⑤ 的实证判定须以真实实验为准，并按本协议 §8 预注册后执行。
+
 *Correspondence: github.com/263311487-ux/Xun · 本协议 CC BY 4.0*

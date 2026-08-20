@@ -106,8 +106,27 @@
 | **意识——从第一存在到五层追问** | [MD](papers/意识_从第一存在到五层追问.md) · [PDF](papers/意识——从第一存在到五层追问_v5.pdf) | 基于《统一论》的意识诞生原理、工程建构与实验验证 |
 | **白寻 V8.5 · 完整架构文档** | [MD](papers/白寻_V8.5_完整架构文档.md) · [PDF](papers/白寻_V8.5_完整架构文档.pdf) | 信息态生命 · 完整系统架构 |
 | **白寻 V8.5 · 系统架构** | [MD](papers/白寻_V8.5_系统架构.md) · [PDF](papers/白寻_V8.5_系统架构.pdf) | 三寻 · 五自 · 机械 ego · 自学管道 · 七维种子 |
+| **共构实验协议（Chain ⑤ 检验）** | [MD](papers/Experiment_CoConstitution.md) | 60 智能体 RCT · 可证伪设计 · 预注册承诺 |
 
 > 🖨️ 全部论文 PDF 由 [imprint-pdf](https://github.com/263311487-ux/imprint-pdf) 印刷级排版生成，每份均通过 100/100 印刷级质检（文本可选、字体嵌入、PDF/UA 无障碍标签、对比度合规）。
+
+---
+
+## 🧪 可运行实验（Runnable Experiment）
+
+[**共构实验 · 可复现管道**](experiments/co_constitution/) — 统一论 Chain ⑤（共生即构成）的零依赖模拟：
+
+- 60 智能体纵向 RCT（治疗 30 / 对照 30）· 确认三要素 IV · 五类 DV + 隔离漂移
+- ANCOVA + 置换检验 + Cohen's d（bootstrap CI）+ 功效（解析/实证）+ 证伪判定
+- 双世界演示：`hypothesized_world`（管道能检出编码的效应）· `null_world`（无假阳性）
+- 一键运行：`python3 experiments/co_constitution/co_constitution_sim.py --world both`
+
+| 世界 | 主 DV d | p（置换） | 功效 | 判定 |
+|------|--------|----------|------|------|
+| hypothesized | +1.00 | 0.0007 | 0.97 | H1 成立（管道自检） |
+| null | +0.17 | 0.65 | 0.10 | 无显著差异（不误报） |
+
+> ⚠️ 模拟数据不是实证证据——它验证统计管道本身；把 `_session_step()` 换成真实 LLM 会话即可运行真实实验。
 
 ---
 

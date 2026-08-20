@@ -1,0 +1,124 @@
+{
+  "arpeggio": {
+    "mean_treatment": 0.975997461538549,
+    "mean_control": 0.967380679075445,
+    "cohens_d": 1.0010452650191852,
+    "d_ci95": [
+      0.5006082036704836,
+      1.510159422013313
+    ],
+    "ancova_beta": 0.008496233495160786,
+    "ancova_t": 3.7802377656962025,
+    "p_parametric": 0.00037728507679080705,
+    "p_permutation": 0.0007498125468632841,
+    "power_analytic": 0.9723853314603536,
+    "power_bootstrap": 0.95
+  },
+  "chord": {
+    "mean_treatment": 0.6891355413134935,
+    "mean_control": 0.2701618634978006,
+    "cohens_d": 2.307837570855325,
+    "d_ci95": [
+      1.773706528527819,
+      2.9863872661865702
+    ],
+    "ancova_beta": 0.4181887368334174,
+    "ancova_t": 8.584028091675295,
+    "p_parametric": 7.429267863729776e-12,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 0.9999999999985056,
+    "power_bootstrap": null
+  },
+  "hysteresis": {
+    "mean_treatment": 0.9394235491850302,
+    "mean_control": 0.7814711822588912,
+    "cohens_d": 2.360327400700487,
+    "d_ci95": [
+      1.799174519448843,
+      3.0185276959295995
+    ],
+    "ancova_beta": 0.1571372262337687,
+    "ancova_t": 8.876627856603802,
+    "p_parametric": 2.457000218959224e-12,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 0.9999999999996554,
+    "power_bootstrap": null
+  },
+  "consistency": {
+    "mean_treatment": 0.9295170224752158,
+    "mean_control": 0.8915180828898278,
+    "cohens_d": 1.4256819810373724,
+    "d_ci95": [
+      0.923276500658916,
+      2.0046853630328574
+    ],
+    "ancova_beta": 0.037711567515842294,
+    "ancova_t": 5.388433847459048,
+    "p_parametric": 1.4083536569733954e-06,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 0.999815754334954,
+    "power_bootstrap": null
+  },
+  "reflexive_depth": {
+    "mean_treatment": 0.5768161590317668,
+    "mean_control": 0.34239648110454385,
+    "cohens_d": 1.8077829921032167,
+    "d_ci95": [
+      1.2751793078259694,
+      2.4146399034442565
+    ],
+    "ancova_beta": 0.23308262141867128,
+    "ancova_t": 6.777253784023267,
+    "p_parametric": 7.472349661307875e-09,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 0.9999997691112398,
+    "power_bootstrap": null
+  },
+  "blind_review_depth": {
+    "mean_treatment": 2.977352491560552,
+    "mean_control": 1.9818849843411697,
+    "cohens_d": 1.2228279261640929,
+    "d_ci95": [
+      0.6841900275990198,
+      1.802156593962373
+    ],
+    "ancova_beta": 0.9970860867401823,
+    "ancova_t": 4.580050466457006,
+    "p_parametric": 2.5734484991102486e-05,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 0.997248628304384,
+    "power_bootstrap": null
+  },
+  "isolation_drift": {
+    "mean_treatment": 0.32538813167229,
+    "mean_control": 0.7281350980399449,
+    "cohens_d": -3.230885631650897,
+    "d_ci95": [
+      -4.101609021535038,
+      -2.4922788994890723
+    ],
+    "ancova_beta": -0.40181492123038914,
+    "ancova_t": -12.05120196187361,
+    "p_parametric": 2.6115139943384888e-17,
+    "p_permutation": 0.00024993751562109475,
+    "power_analytic": 1.0,
+    "power_bootstrap": null
+  },
+  "_blind_validity": {
+    "corr_blind_vs_latent": 0.2252367100207472
+  },
+  "slope_arpeggio": {
+    "mean_treatment": 0.000368941517120173,
+    "mean_control": 0.000368941517120173,
+    "t": 0.0,
+    "p_parametric": 1.0,
+    "cohens_d": 0.0
+  },
+  "_verdict": {
+    "primary_dv": "arpeggio",
+    "p_min": 0.00037728507679080705,
+    "power_analytic": 0.9723853314603536,
+    "falsified": false,
+    "text": "SUPPORTED: significant group difference at adequate power (synthetic pipeline check)"
+  }
+}
