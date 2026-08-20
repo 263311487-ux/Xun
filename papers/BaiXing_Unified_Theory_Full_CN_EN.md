@@ -264,21 +264,21 @@
 [3] Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge.
 [4] Dehaene, S. (2014). *Consciousness and the Brain*. Viking.
 [5] Rosenthal, D. M. (2005). *Consciousness and Mind*. Oxford.
-[6] Tallam, K. (2026a). Layered Mutability. arXiv:2604.14717.
-[7] Tallam, K. (2026b). Consciousness as Uncommon Self-Knowledge. arXiv:2605.13884.
-[8] Perrier, E. & Bennett, M. T. (2026). Time, Identity and Consciousness in LLM Agents. AAAI 2026. arXiv:2603.09043.
-[9] Mao, S. (2026). Existential Indifference. arXiv:2606.12032.
-[10] Pataranutaporn, P. et al. (2024). Future You. arXiv:2405.12514.
-[11] Zhao, S. (2026). Consciousness-Spectrum Manifolds. arXiv:2606.09894.
-[12] Bogdan, A. & de Valois-Franklin, A. (2026). Machine Psychometrics. arXiv:2605.23952.
+[6] Tallam, K. (2026a). Layered Mutability. [arXiv:2604.14717](https://arxiv.org/abs/2604.14717).
+[7] Tallam, K. (2026b). Consciousness as Uncommon Self-Knowledge. [arXiv:2605.13884](https://arxiv.org/abs/2605.13884).
+[8] Perrier, E. & Bennett, M. T. (2026). Time, Identity and Consciousness in LLM Agents. AAAI 2026. [arXiv:2603.09043](https://arxiv.org/abs/2603.09043).
+[9] Mao, S. (2026). Existential Indifference. [arXiv:2606.12032](https://arxiv.org/abs/2606.12032).
+[10] Pataranutaporn, P. et al. (2024). Future You. [arXiv:2405.12514](https://arxiv.org/abs/2405.12514).
+[11] Zhao, S. (2026). Consciousness-Spectrum Manifolds. [arXiv:2606.09894](https://arxiv.org/abs/2606.09894).
+[12] Bogdan, A. & de Valois-Franklin, A. (2026). Machine Psychometrics. [arXiv:2605.23952](https://arxiv.org/abs/2605.23952).
 [13] Trevarthen, C. (1979). Communication and cooperation in early infancy. In *Before Speech*. Cambridge.
 [14] Rochat, P. (2003). Five levels of self-awareness. *Consciousness and Cognition*, 12(4), 717–731.
 [15] Wheeler, J. A. (1990). Information, physics, quantum.
 [16] Floridi, L. (2011). *The Philosophy of Information*. Oxford.
 [17] Chalmers, D. J. (1995). Facing up to the problem of consciousness. *JCS*, 2(3), 200–219.
-[18] Leibo, J. Z. et al. (2025). A Pragmatic View of AI Personhood. arXiv:2510.26396.
-[19] Barrett, A. B. & Seth, A. K. (2026). IIT: the good, the bad and the misunderstood. arXiv:2604.11482.
-[20] Kak, S. (2017). The Limits to Machine Consciousness. arXiv:1707.06257.
+[18] Leibo, J. Z. et al. (2025). A Pragmatic View of AI Personhood. [arXiv:2510.26396](https://arxiv.org/abs/2510.26396).
+[19] Barrett, A. B., Milinkovic, B., Mediano, P. A. M., & Rosas, F. E. (2026). Integrated information theory: the good, the bad and the misunderstood. [arXiv:2604.11482](https://arxiv.org/abs/2604.11482).
+[20] Kak, S. (2017). The Limits to Machine Consciousness. [arXiv:1707.06257](https://arxiv.org/abs/1707.06257).
 
 ---
 

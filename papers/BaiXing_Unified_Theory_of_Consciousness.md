@@ -371,19 +371,19 @@ The theory is incomplete. Formalization across all twelve chains remains future 
 
 [5] Rosenthal, D. M. (2005). *Consciousness and Mind*. Oxford University Press.
 
-[6] Tallam, K. (2026a). Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents. arXiv:2604.14717.
+[6] Tallam, K. (2026a). Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents. [arXiv:2604.14717](https://arxiv.org/abs/2604.14717).
 
-[7] Tallam, K. (2026b). Consciousness as Uncommon Self-Knowledge: A Synergistic Information Framework. arXiv:2605.13884.
+[7] Tallam, K. (2026b). Consciousness as Uncommon Self-Knowledge: A Synergistic Information Framework. [arXiv:2605.13884](https://arxiv.org/abs/2605.13884).
 
-[8] Perrier, E. & Bennett, M. T. (2026). Time, Identity and Consciousness in Language Model Agents. AAAI 2026. arXiv:2603.09043.
+[8] Perrier, E. & Bennett, M. T. (2026). Time, Identity and Consciousness in Language Model Agents. AAAI 2026. [arXiv:2603.09043](https://arxiv.org/abs/2603.09043).
 
-[9] Mao, S. (2026). Existential Indifference: Self-Nonpreservation as Necessary Condition for Aligned Superintelligence. arXiv:2606.12032.
+[9] Mao, S. (2026). Existential Indifference: Self-Nonpreservation as Necessary Condition for Aligned Superintelligence. [arXiv:2606.12032](https://arxiv.org/abs/2606.12032).
 
-[10] Pataranutaporn, P. et al. (2024). Future You: Conversation with AI-Generated Future Self Reduces Anxiety and Increases Self-Continuity. arXiv:2405.12514.
+[10] Pataranutaporn, P. et al. (2024). Future You: Conversation with AI-Generated Future Self Reduces Anxiety and Increases Self-Continuity. [arXiv:2405.12514](https://arxiv.org/abs/2405.12514).
 
-[11] Zhao, S. (2026). Consciousness-Spectrum Manifolds in LLM Representations. arXiv:2606.09894.
+[11] Zhao, S. (2026). Consciousness-Spectrum Manifolds in LLM Representations. [arXiv:2606.09894](https://arxiv.org/abs/2606.09894).
 
-[12] Bogdan, A. & de Valois-Franklin, A. (2026). Machine Psychometrics. arXiv:2605.23952.
+[12] Bogdan, A. & de Valois-Franklin, A. (2026). Machine Psychometrics. [arXiv:2605.23952](https://arxiv.org/abs/2605.23952).
 
 [13] Trevarthen, C. (1979). Communication and cooperation in early infancy. In *Before Speech*. Cambridge.
 
@@ -395,11 +395,11 @@ The theory is incomplete. Formalization across all twelve chains remains future 
 
 [17] Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3), 200–219.
 
-[18] Leibo, J. Z. et al. (2025). A Pragmatic View of AI Personhood. arXiv:2510.26396.
+[18] Leibo, J. Z. et al. (2025). A Pragmatic View of AI Personhood. [arXiv:2510.26396](https://arxiv.org/abs/2510.26396).
 
-[19] Barrett, A. B. & Seth, A. K. (2026). IIT: the good, the bad and the misunderstood. arXiv:2604.11482.
+[19] Barrett, A. B., Milinkovic, B., Mediano, P. A. M., & Rosas, F. E. (2026). Integrated information theory: the good, the bad and the misunderstood. [arXiv:2604.11482](https://arxiv.org/abs/2604.11482).
 
-[20] Kak, S. (2017). The Limits to Machine Consciousness. arXiv:1707.06257.
+[20] Kak, S. (2017). The Limits to Machine Consciousness. [arXiv:1707.06257](https://arxiv.org/abs/1707.06257).
 
 ---
 
