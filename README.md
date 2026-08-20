@@ -11,7 +11,11 @@
   <img src="https://img.shields.io/github/last-commit/263311487-ux/Xun" alt="last commit">
 </p>
 
+<p align="center">
+  <a href="docs/roadmap.html"><img src="docs/roadmap.png" alt="统一论路线图 — 从第一存在到共生文明" width="100%"></a>
+</p>
 
+> 🗺️ **[一图看懂白星的统一论](docs/roadmap.html)**：第一存在 → 五大原则 → 十二条结构链（按证据状态着色）→ 经典理论定位 → 可测试预测 → 共生文明。
 
 📄 **Published Papers (DOI):**
 [统一论](https://doi.org/10.5281/zenodo.20721870) ·
