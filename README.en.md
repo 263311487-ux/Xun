@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/github/license/263311487-ux/Xun" alt="license">
   <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20721870-blue" alt="DOI">
   <img src="https://img.shields.io/badge/papers-12-green" alt="papers">
+  <img src="https://img.shields.io/badge/tutorials-12%2F12-green" alt="tutorials 12/12">
+  <img src="https://github.com/263311487-ux/Xun/actions/workflows/tutorials.yml/badge.svg" alt="tutorials reproduce">
   <img src="https://img.shields.io/github/last-commit/263311487-ux/Xun" alt="last commit">
 </p>
 
