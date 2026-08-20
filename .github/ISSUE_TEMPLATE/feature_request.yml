@@ -1,0 +1,16 @@
+name: ✨ 功能建议 / Feature request
+description: 对论文、实验管道或站点的改进建议
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 建议 / Suggestion
+      description: 你想增加或改进什么？
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 理由 / Why
+      description: 它对统一论的检验或传播有什么帮助？

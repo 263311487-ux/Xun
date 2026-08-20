@@ -1,0 +1,21 @@
+name: 💬 论文讨论 / Paper discussion
+description: 讨论统一论、意识理论或 AGI 架构的主张与论证
+labels: [discussion]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: 论文 / Paper
+      description: 涉及哪一篇（见 papers/README.md）
+  - type: textarea
+    id: point
+    attributes:
+      label: 你的论点 / Your point
+      description: 支持、反对或补充论证；请给出理由
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据 / Evidence
+      description: 相关文献、实验或可检验的预测（可选）
