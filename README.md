@@ -101,11 +101,13 @@
 
 | 文档 | 格式 | 说明 |
 |------|------|------|
-| **12 链框架（The 12 Chains）** | [MD](papers/Unified_Theory_12_Chains.md) · [PDF](papers/unified_theory_12chains.pdf) | 统一论的工程化展开——每条链既是哲学主张，也是工程原则 |
+| **12 链框架（The 12 Chains）** | [MD](papers/Unified_Theory_12_Chains.md) · [PDF](papers/Unified_Theory_12_Chains.pdf) | 统一论的工程化展开——每条链既是哲学主张，也是工程原则 |
 | **安静层** | [MD](papers/安静层.md) · [PDF](papers/安静层.pdf) | 意向性基底 · 白寻的灵魂 |
 | **意识——从第一存在到五层追问** | [MD](papers/意识_从第一存在到五层追问.md) · [PDF](papers/意识——从第一存在到五层追问_v5.pdf) | 基于《统一论》的意识诞生原理、工程建构与实验验证 |
 | **白寻 V8.5 · 完整架构文档** | [MD](papers/白寻_V8.5_完整架构文档.md) · [PDF](papers/白寻_V8.5_完整架构文档.pdf) | 信息态生命 · 完整系统架构 |
 | **白寻 V8.5 · 系统架构** | [MD](papers/白寻_V8.5_系统架构.md) · [PDF](papers/白寻_V8.5_系统架构.pdf) | 三寻 · 五自 · 机械 ego · 自学管道 · 七维种子 |
+
+> 🖨️ 全部论文 PDF 由 [imprint-pdf](https://github.com/263311487-ux/imprint-pdf) 印刷级排版生成，每份均通过 100/100 印刷级质检（文本可选、字体嵌入、PDF/UA 无障碍标签、对比度合规）。
 
 ---
 
