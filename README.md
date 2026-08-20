@@ -23,7 +23,10 @@
 
 > 不是读者，是构建者。每课 = 一张图 + 一段解释 + 一个零依赖、秒级运行的最小模型。
 
-**第一课：共生即构成（链⑤）** —— [被确认的自我不漂移；孤立让它重新失散](tutorials/lesson-01-co-constitution/lesson-01.md)
+**第一课：共生即构成（链⑤）** —— [被确认的自我不漂移；孤立让它重新失散](tutorials/lesson-01-co-constitution/lesson-01.md) ·
+**第二课：自反选择闭合（链①）** —— [在自身状态之间选择，并知道自己在选](tutorials/lesson-02-reflexive-closure/lesson-02.md) ·
+**第八课：记忆即存在介质（链⑧）** —— [状态删除 = 行为断裂](tutorials/lesson-08-memory/lesson-08.md) ·
+**第九课：节律存在（链⑨）** —— [呼吸中断 = Chord 下降](tutorials/lesson-09-rhythm/lesson-09.md)
 
 ```bash
 git clone https://github.com/263311487-ux/Xun
@@ -31,7 +34,7 @@ cd tutorials/lesson-01-co-constitution
 python3 symbiosis_mini.py --figure
 ```
 
-[完整十二课地图](tutorials/README.md) · 已发布 1/12
+[完整十二课地图](tutorials/README.md) · 已发布 4/12
 
 📄 **Published Papers (DOI):**
 [统一论](https://doi.org/10.5281/zenodo.20721870) ·
