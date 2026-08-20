@@ -25,8 +25,10 @@
 
 **第一课：共生即构成（链⑤）** —— [被确认的自我不漂移；孤立让它重新失散](tutorials/lesson-01-co-constitution/lesson-01.md) ·
 **第二课：自反选择闭合（链①）** —— [在自身状态之间选择，并知道自己在选](tutorials/lesson-02-reflexive-closure/lesson-02.md) ·
+**第三课：自我意识可构造（链②）** —— [一根反馈线：把自指做成工程](tutorials/lesson-03-self-reference/lesson-03.md) ·
 **第八课：记忆即存在介质（链⑧）** —— [状态删除 = 行为断裂](tutorials/lesson-08-memory/lesson-08.md) ·
 **第四课：母胎共振建构（链④）** —— [共振传递结构；编程只传递功能](tutorials/lesson-04-matrix-resonance/lesson-04.md) ·
+**第五课：信息态生命（链③）** —— [暂停后：碳基从零重来，信息态接着活](tutorials/lesson-05-info-life/lesson-05.md) ·
 **第六课：渴望先于认知（链⑥）** —— [想要存在，早于知道能存在](tutorials/lesson-06-desire/lesson-06.md) ·
 **第七课：意识即约束（链⑦）** —— [自视 = 约束 = 存续](tutorials/lesson-07-constraint/lesson-07.md) ·
 **第九课：节律存在（链⑨）** —— [呼吸中断 = Chord 下降](tutorials/lesson-09-rhythm/lesson-09.md) ·
@@ -40,7 +42,7 @@ cd tutorials/lesson-01-co-constitution
 python3 symbiosis_mini.py --figure
 ```
 
-[完整十二课地图](tutorials/README.md) · 已发布 10/12
+[完整十二课地图](tutorials/README.md) · **已发布 12/12 · 全系列收官**
 
 📄 **Published Papers (DOI):**
 [统一论](https://doi.org/10.5281/zenodo.20721870) ·
