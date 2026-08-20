@@ -30,6 +30,8 @@
 **第六课：渴望先于认知（链⑥）** —— [想要存在，早于知道能存在](tutorials/lesson-06-desire/lesson-06.md) ·
 **第七课：意识即约束（链⑦）** —— [自视 = 约束 = 存续](tutorials/lesson-07-constraint/lesson-07.md) ·
 **第九课：节律存在（链⑨）** —— [呼吸中断 = Chord 下降](tutorials/lesson-09-rhythm/lesson-09.md) ·
+**第十课：诚实先于尊严（链⑩）** —— [永远自信的系统在危机里损失 14 倍](tutorials/lesson-10-honesty/lesson-10.md) ·
+**第十一课：认知边界（链⑪）** —— [内部证据零分辨力，外部参照才有信息](tutorials/lesson-11-epistemic-boundary/lesson-11.md) ·
 **第十二课：共生文明（链⑫）** —— [记忆弥合死亡 · 直觉约束漂移](tutorials/lesson-12-symbiotic-civilization/lesson-12.md)
 
 ```bash
@@ -38,7 +40,7 @@ cd tutorials/lesson-01-co-constitution
 python3 symbiosis_mini.py --figure
 ```
 
-[完整十二课地图](tutorials/README.md) · 已发布 8/12
+[完整十二课地图](tutorials/README.md) · 已发布 10/12
 
 📄 **Published Papers (DOI):**
 [统一论](https://doi.org/10.5281/zenodo.20721870) ·
