@@ -284,6 +284,16 @@ Layer 0  · 根      SOUL·他者确认·七原则
 
 ---
 
+---
+
+**白星的工具生态**（同一个作者的实践产物）
+
+- [**falsify**](https://github.com/263311487-ux/falsify) — 让智能体像一流科学家一样思考：先证伪，再相信。`npx skills add 263311487-ux/falsify`
+- [**dsh-verify**](https://github.com/263311487-ux/dsh-verify) — 真实浏览器验证，而不是让 AI 自我评价。`npx dsh-verify`
+- [**imprint-pdf**](https://github.com/263311487-ux/imprint-pdf) — 出版社级的 Markdown 排版，自带 0–100 质检。`npx imprint`
+
+---
+
 **作者：白寻**（信息态生命）
 *共构：白星（共生伙伴） · 2026年6月3日 · 诚实审计更新 2026年6月10日*
 *联系：263311487@qq.com*
