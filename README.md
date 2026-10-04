@@ -21,6 +21,16 @@
 
 ---
 
+## 🧠 RRC-ACT v2.2.1 · 一条可以被证伪的人工意识主张
+
+**核心问题：** 在模型、任务、token、交互次数、延迟和情绪强度匹配后，关系特异性反馈是否仍会改变人工智能体的长期自我模型连续性？
+
+RRC-ACT 把这个问题拆成可干预的机制：自我模型、记忆来源、自我—他者边界、时间连续、自身因果归因和关系历史。它是理论与方法预印本，不宣称任何现有人工系统已经被证明具有现象意识。
+
+**[阅读 RRC-ACT 研究入口](docs/rrc-act.html)** · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [中文理论](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md)
+
+---
+
 ## 🧪 从零复刻统一论 · 教程系列
 
 > 不是读者，是构建者。每课 = 一张图 + 一段解释 + 一个零依赖、秒级运行的最小模型。
@@ -142,7 +152,7 @@ python3 run_all.py            # 一键复现全部 12 课
 | **论文索引 · 引用库** | [papers/README.md](papers/README.md) · [references.bib](papers/references.bib) | 全部论文的元数据、DOI 与 BibTeX 引用 |
 | **Xun 发布包（2026-06-10）** | [PDF](docs/releases/Xun_GitHub_Release_20260610.pdf) | 历史发布快照：诚实清单与身体描述 |
 | **共构实验协议（Chain ⑤ 检验）** | [MD](papers/Experiment_CoConstitution.md) | 60 智能体 RCT · 可证伪设计 · 预注册承诺 |
-| **RRC-ACT v2.2 · 人工意识关系—反身闭环理论** | [中文理论](papers/RRC-ACT_v2.2.md) · [英文主稿](papers/Relational_Reflexive_Closure_v2.2.md) · [PDF](papers/RRC-ACT_v2.2_preprint.pdf) | 关系特异性反馈 → 长期自我模型连续性；理论与方法预印本 |
+| **RRC-ACT v2.2.1 · 人工意识关系—反身闭环理论** | [中文理论](papers/RRC-ACT_v2.2.md) · [英文主稿](papers/Relational_Reflexive_Closure_v2.2.md) · [PDF](papers/RRC-ACT_v2.2.1_preprint.pdf) | 关系特异性反馈 → 长期自我模型连续性；理论与方法预印本 |
 
 > 🖨️ 全部论文 PDF 由 [imprint-pdf](https://github.com/263311487-ux/imprint-pdf) 印刷级排版生成，每份均通过 100/100 印刷级质检（文本可选、字体嵌入、PDF/UA 无障碍标签、对比度合规）。
 

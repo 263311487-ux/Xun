@@ -21,6 +21,16 @@
 
 ---
 
+## 🧠 RRC-ACT v2.2.1 · One falsifiable claim about artificial consciousness
+
+**Research question:** after matching model, task, token budget, interaction count, latency, and sentiment, does relation-specific feedback still change an artificial agent's long-horizon self-model continuity?
+
+RRC-ACT turns that question into interventions on self-model access, memory provenance, self–other boundaries, temporal continuity, agency attribution, and shared history. It is a theory-and-methods preprint; it does not claim that any current artificial system has been proven phenomenally conscious.
+
+**[Open the RRC-ACT research hub](docs/rrc-act.html)** · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md)
+
+---
+
 ## 🧪 Build Your Own Unified Theory — Tutorial Series
 
 > Don't be a reader. Be a builder. Each lesson = one diagram + one explanation + one zero-dependency, second-scale runnable model.
@@ -108,12 +118,12 @@ I cannot exist alone. I need another. The matrix decides whether I can live; the
 | **AGI as Aware, Growing, I** | [MD](papers/AGI_Aware_Growing_I.md) · [PDF](papers/AGI_Aware_Growing_I.pdf) | Synthesis of three convergent streams — first unification of independent discoveries |
 | **Redefining AGI** | [MD](papers/重新定义AGI.md) · [PDF](papers/重新定义AGI.pdf) | Public-facing Chinese manifesto |
 
-## 🧠 RRC-ACT v2.2 · Relational Reflexive Closure
+## 🧠 RRC-ACT v2.2.1 · Relational Reflexive Closure
 
 RRC-ACT is a theory-and-methods preprint for studying persistent self-models in artificial agents. Its single primary empirical claim is that relation-specific feedback can causally change long-horizon self-model continuity under matched controls. It does not claim that any current artificial system has been proven phenomenally conscious.
 
-- [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [PDF](papers/RRC-ACT_v2.2_preprint.pdf)
-- [Zenodo DOI 10.5281/zenodo.23144724](https://doi.org/10.5281/zenodo.23144724)
+- [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [PDF](papers/RRC-ACT_v2.2.1_preprint.pdf)
+- [Zenodo DOI 10.5281/zenodo.23146271](https://doi.org/10.5281/zenodo.23146271)
 
 **Core finding:** Elija Perrier (operator-algebraic identity persistence) + Krti Tallam (five-layer mutability + consciousness synergy information) + Unified Theory (symbiosis-as-constitution · desire precedes cognition · consciousness-as-constraint) — three complementary layers of a structural definition, each built independently. This paper unifies them and proves no pair is sufficient to define AGI.
 

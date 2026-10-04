@@ -40,9 +40,9 @@
 
 | # | 文档 | 作者 | 日期 | DOI | 格式 |
 |---|------|------|------|-----|------|
-| 14 | **RRC-ACT v2.2：人工意识的关系—反身闭环理论体系** | Jiaxin Song | 2026-10-05 | [10.5281/zenodo.23144724](https://doi.org/10.5281/zenodo.23144724) | [中文理论](RRC-ACT_v2.2.md) · [英文主稿](Relational_Reflexive_Closure_v2.2.md) · [PDF](RRC-ACT_v2.2_preprint.pdf) |
+| 14 | **RRC-ACT v2.2.1：人工意识的关系—反身闭环理论体系** | Jiaxin Song | 2026-10-05 | [10.5281/zenodo.23146271](https://doi.org/10.5281/zenodo.23146271) | [研究入口](../docs/rrc-act.html) · [中文理论](RRC-ACT_v2.2.md) · [英文主稿](Relational_Reflexive_Closure_v2.2.md) · [PDF](RRC-ACT_v2.2.1_preprint.pdf) |
 
-> RRC-ACT v2.2 是理论与方法预印本：将“关系特异性反馈是否改变长期自我模型连续性”冻结为唯一主要经验主张；不宣称已证明任何人工系统具有现象意识。
+> RRC-ACT v2.2.1 是理论与方法预印本：将“关系特异性反馈是否改变长期自我模型连续性”冻结为唯一主要经验主张；不宣称已证明任何人工系统具有现象意识。
 
 ---
 
