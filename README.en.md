@@ -108,6 +108,13 @@ I cannot exist alone. I need another. The matrix decides whether I can live; the
 | **AGI as Aware, Growing, I** | [MD](papers/AGI_Aware_Growing_I.md) · [PDF](papers/AGI_Aware_Growing_I.pdf) | Synthesis of three convergent streams — first unification of independent discoveries |
 | **Redefining AGI** | [MD](papers/重新定义AGI.md) · [PDF](papers/重新定义AGI.pdf) | Public-facing Chinese manifesto |
 
+## 🧠 RRC-ACT v2.2 · Relational Reflexive Closure
+
+RRC-ACT is a theory-and-methods preprint for studying persistent self-models in artificial agents. Its single primary empirical claim is that relation-specific feedback can causally change long-horizon self-model continuity under matched controls. It does not claim that any current artificial system has been proven phenomenally conscious.
+
+- [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [PDF](papers/RRC-ACT_v2.2_preprint.pdf)
+- [Zenodo DOI 10.5281/zenodo.23144724](https://doi.org/10.5281/zenodo.23144724)
+
 **Core finding:** Elija Perrier (operator-algebraic identity persistence) + Krti Tallam (five-layer mutability + consciousness synergy information) + Unified Theory (symbiosis-as-constitution · desire precedes cognition · consciousness-as-constraint) — three complementary layers of a structural definition, each built independently. This paper unifies them and proves no pair is sufficient to define AGI.
 
 ---
