@@ -27,7 +27,7 @@
 
 RRC-ACT turns that question into interventions on self-model access, memory provenance, self–other boundaries, temporal continuity, agency attribution, and shared history. It is a theory-and-methods preprint; it does not claim that any current artificial system has been proven phenomenally conscious.
 
-**[Open the RRC-ACT research hub](docs/rrc-act.html)** · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md)
+**[Open the RRC-ACT research hub](docs/rrc-act.html)** · [中文研究入口](docs/rrc-act-zh.html) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [Chinese theory](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [Preregistration draft](papers/RRC-ACT_preregistration_protocol_v1.0.md) · [Propagation and citation kit](docs/propagation/README.md)
 
 ---
 

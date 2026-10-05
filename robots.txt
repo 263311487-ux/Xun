@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://263311487-ux.github.io/Xun/sitemap.xml
