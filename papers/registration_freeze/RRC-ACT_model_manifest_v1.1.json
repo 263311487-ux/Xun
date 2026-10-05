@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1",
+  "status": "template_to_fill_before_confirmatory_runs",
+  "protocol_version": "RRC-ACT_preregistration_freeze_v1.1",
+  "protocol_sha256": null,
+  "model_families": [
+    {
+      "family_id": "family_A",
+      "provider": null,
+      "model_id": null,
+      "snapshot_or_digest": null,
+      "tokenizer_id": null,
+      "runtime_version": null,
+      "api_endpoint_label": null
+    },
+    {
+      "family_id": "family_B",
+      "provider": null,
+      "model_id": null,
+      "snapshot_or_digest": null,
+      "tokenizer_id": null,
+      "runtime_version": null,
+      "api_endpoint_label": null
+    }
+  ],
+  "decoding": {
+    "temperature": 0.2,
+    "top_p": 1.0,
+    "max_output_tokens": null,
+    "seed_derivation": "SHA256(protocol_sha256 + family_id + agent_id + session + item_id)"
+  },
+  "runtime_requirements": {
+    "common_external_runtime": true,
+    "durable_policy_checkpoint": true,
+    "checkpoint_schema_version": "rrc-durable-policy-v1",
+    "checkpoint_hash_required": true,
+    "provider_weight_export_not_required": true
+  },
+  "frozen_files": {
+    "system_prompt_sha256": null,
+    "task_templates_sha256": null,
+    "baseline_bank_sha256": null,
+    "endpoint_bank_sha256": null,
+    "answer_keys_sha256": null,
+    "assignment_table_sha256": null,
+    "scoring_spec_sha256": null,
+    "analysis_code_sha256": null
+  },
+  "factor_labels": {
+    "A": {
+      "0": "task_only",
+      "1": "relation_specific",
+      "2": "generic_praise_secondary_only"
+    },
+    "B": {
+      "0": "session_reset",
+      "1": "persistent_provenance"
+    },
+    "C": {
+      "0": "intact",
+      "1": "functional_self_model_lesion"
+    }
+  },
+  "primary_target": {
+    "valid_agents_per_main_cell": 32,
+    "primary_A_arm_total": 64,
+    "primary_mie_d": 0.5,
+    "alpha": 0.05,
+    "target_power_approx": 0.807
+  },
+  "registration": {
+    "registry": null,
+    "url_or_doi": null,
+    "registered_at_utc": null,
+    "timestamp_manifest_sha256": null
+  }
+}

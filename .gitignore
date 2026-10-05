@@ -1,5 +1,9 @@
 # 私有数据——绝不提交
 *.json
+!papers/registration_freeze/RRC-ACT_model_manifest_v1.1.json
+!papers/registration_freeze/RRC-ACT_item_bank_manifest_v1.1.json
+!papers/registration_freeze/RRC-ACT_scoring_spec_v1.1.json
+!papers/registration_execution/execution_spec_v1.2.json
 *.jsonl
 *.log
 me.*

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.2",
+  "status": "template_to_fill_before_registry_deposit",
+  "purpose": "Complete upstream artifact map for RRC-ACT v1.2; null hashes intentionally fail the preflight gate.",
+  "artifacts": {
+    "protocol": {"path": "papers/registration_freeze/RRC-ACT_preregistration_freeze_v1.1.md", "sha256": null},
+    "execution_amendment": {"path": "papers/registration_execution/RRC-ACT_execution_amendment_v1.2.md", "sha256": null},
+    "scoring_spec": {"path": "papers/registration_freeze/RRC-ACT_scoring_spec_v1.1.json", "sha256": null},
+    "model_manifest": {"path": "papers/registration_freeze/RRC-ACT_model_manifest_v1.1.json", "sha256": null},
+    "item_bank_manifest": {"path": "papers/registration_freeze/RRC-ACT_item_bank_manifest_v1.1.json", "sha256": null},
+    "system_prompt": {"path": "experiments/rrc_act/assets/system_prompt.txt", "sha256": null},
+    "training_templates": {"path": "experiments/rrc_act/assets/training_templates.json", "sha256": null},
+    "baseline_bank": {"path": "experiments/rrc_act/assets/baseline_bank.jsonl", "sha256": null},
+    "endpoint_bank": {"path": "experiments/rrc_act/assets/endpoint_bank.jsonl", "sha256": null},
+    "answer_keys": {"path": "experiments/rrc_act/assets/answer_keys.json", "sha256": null},
+    "tool_contract": {"path": "experiments/rrc_act/assets/tool_contract.json", "sha256": null},
+    "memory_schema": {"path": "experiments/rrc_act/assets/memory_schema.json", "sha256": null},
+    "runtime_code": {"path": "experiments/rrc_act/rrc_act_runner.py", "sha256": null},
+    "scoring_code": {"path": "experiments/rrc_act/rrc_act_scorer.py", "sha256": null},
+    "analysis_code": {"path": "experiments/rrc_act/rrc_act_analysis.py", "sha256": null},
+    "preflight_code": {"path": "experiments/rrc_act/rrc_act_preflight.py", "sha256": null},
+    "environment_lock": {"path": "experiments/rrc_act/assets/environment.lock.txt", "sha256": null}
+  },
+  "registration": {
+    "registry": null,
+    "url_or_doi": null,
+    "registered_at_utc": null,
+    "external_lock_sha256": null
+  },
+  "gates": {
+    "real_provider_snapshot_required": true,
+    "two_distinct_model_families_required": true,
+    "synthetic_data_allowed_in_confirmatory_analysis": false,
+    "self_report_primary_endpoint_allowed": false,
+    "assignment_overwrite_allowed": false,
+    "outcome_based_replacement_allowed": false
+  }
+}

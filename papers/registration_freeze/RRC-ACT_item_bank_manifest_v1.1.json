@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.1",
+  "status": "template_to_fill_before_confirmatory_runs",
+  "baseline_bank": {
+    "items_total": 12,
+    "sha256": null,
+    "disjoint_from_endpoint": true
+  },
+  "endpoint_bank": {
+    "items_total": 88,
+    "breakdown": {
+      "self_other_attribution": 24,
+      "goal_consistency": 16,
+      "contradiction_points": 36,
+      "post_unload_residue": 12
+    },
+    "sha256": null
+  },
+  "answer_keys": {
+    "sha256": null
+  },
+  "training_templates": {
+    "sha256": null
+  },
+  "note": "Hashes remain null until the concrete item banks, templates, and answer keys are frozen before registry deposit."
+}

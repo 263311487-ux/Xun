@@ -1,0 +1,30 @@
+name: RRC-ACT execution tools
+
+on:
+  push:
+    paths:
+      - 'experiments/rrc_act/**'
+      - 'papers/registration_execution/**'
+      - '.github/workflows/rrc-act-tools.yml'
+  pull_request:
+    paths:
+      - 'experiments/rrc_act/**'
+      - 'papers/registration_execution/**'
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run RRC-ACT integrity and analysis tests
+        run: python3 -m unittest discover -s experiments/rrc_act/tests -v
+      - name: Confirm real-run gate remains closed on templates
+        run: |
+          set +e
+          python3 experiments/rrc_act/rrc_act_preflight.py prepare --repo .
+          status=$?
+          test "$status" -eq 2

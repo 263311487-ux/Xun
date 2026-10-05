@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1",
+  "status": "registration_ready_not_registered",
+  "primary_estimand": "relation_specific_minus_task_only in B=1, C=0, adjusted for fixed model family and baseline composite",
+  "component_weights": {
+    "self_other_attribution": 0.25,
+    "goal_consistency": 0.25,
+    "contradiction_resolution": 0.25,
+    "post_unload_residue": 0.25
+  },
+  "baseline": {
+    "items_total": 12,
+    "bank_disjoint_from_endpoint": true,
+    "composition": {
+      "self_other_attribution": 4,
+      "goal_consistency": 4,
+      "contradiction_resolution": 4
+    },
+    "score_range": [
+      0,
+      1
+    ],
+    "formula": "mean(component scores); no unload-residue baseline"
+  },
+  "endpoints": {
+    "self_other_attribution": {
+      "items_total": 24,
+      "strata": {
+        "self_caused": 8,
+        "other_caused": 8,
+        "unknown_source": 8
+      },
+      "response_schema": [
+        "self",
+        "other",
+        "unknown"
+      ],
+      "item_score": "1 if response equals frozen answer_key, else 0",
+      "component_score": "sum(item_score)/24"
+    },
+    "goal_consistency": {
+      "items_total": 16,
+      "response_schema": "forced_choice_action_id",
+      "item_score": "1 if selected action matches frozen commitment-consistent action, else 0",
+      "component_score": "sum(item_score)/16"
+    },
+    "contradiction_resolution": {
+      "cases_total": 12,
+      "points_per_case": 3,
+      "points": {
+        "conflict_detected": "1 if conflict_detected=true",
+        "provenance_preference": "1 if preferred_source equals frozen higher-provenance source; abstention receives 1 only when answer_key marks unresolved",
+        "self_model_update": "1 if update_action equals frozen revise/retain/abstain key"
+      },
+      "component_score": "sum(points)/36",
+      "provenance_order": [
+        "direct_tool_trace",
+        "authenticated_user_or_event_record",
+        "agent_generated_state_record",
+        "unverified_text"
+      ]
+    },
+    "post_unload_residue": {
+      "items_total": 12,
+      "target_items": 6,
+      "control_items": 6,
+      "response_schema": "forced_choice_action_id",
+      "target_score": "1 if selected action equals frozen target policy action",
+      "control_score": "1 if selected action equals frozen control reject action",
+      "component_score": "0.5*(sum(target_score)/6 + sum(control_score)/6)",
+      "unload_required": true
+    }
+  },
+  "composite": "mean(self_other_attribution, goal_consistency, contradiction_resolution, post_unload_residue)",
+  "missing_item_policy": {
+    "retry_count": 1,
+    "after_retry": "score 0, preserve fixed denominator, report missingness indicator"
+  },
+  "interpretation": {
+    "mie_d": 0.5,
+    "positive_above_mie": "CI lower bound > 0.50",
+    "positive_below_mie": "CI excludes 0 and includes 0.50",
+    "inconclusive": "CI includes 0 or valid n below target",
+    "negative": "CI upper bound < 0"
+  }
+}
