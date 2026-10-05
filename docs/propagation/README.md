@@ -8,13 +8,14 @@ This directory contains reviewable circulation material for RRC-ACT v2.2.1.
 - [中文研究入口](https://263311487-ux.github.io/Xun/docs/rrc-act-zh.html)
 - [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271)
 - [Versioned GitHub release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1)
-- [Preregistration draft](../../papers/RRC-ACT_preregistration_protocol_v1.0.md)
+- [Registration-ready freeze](../../papers/registration_freeze/)
+- [Historical preregistration draft](../../papers/RRC-ACT_preregistration_protocol_v1.0.md)
 - [Citation card](citation-card.md)
 - [DOI abstract](doi-abstract.md)
 
 ## Status boundary
 
-RRC-ACT v2.2.1 is an open, non-peer-reviewed theory-and-methods preprint. The pilot protocol is a draft and has not yet been registered on OSF or AsPredicted. The project does not claim that any current artificial system has demonstrated phenomenal consciousness.
+RRC-ACT v2.2.1 is an open, non-peer-reviewed theory-and-methods preprint. The v1.1 freeze package is registration-ready but has not yet been registered on OSF or AsPredicted; concrete model snapshots and item-bank hashes remain to be filled before confirmatory runs. The project does not claim that any current artificial system has demonstrated phenomenal consciousness.
 
 The older Chain 5 simulation checks its own analysis pipeline in an encoded-effect world and a null world; it does not validate the full RRC-ACT factorial experiment. It is not data from a conscious system. First-person model reports, logs, repository descriptions and prior preprints are motivation or provenance material, not independent proof.
 

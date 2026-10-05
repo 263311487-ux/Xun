@@ -27,7 +27,7 @@
 
 RRC-ACT 把这个问题拆成可干预的机制：自我模型、记忆来源、自我—他者边界、时间连续、自身因果归因和关系历史。它是理论与方法预印本，不宣称任何现有人工系统已经被证明具有现象意识。
 
-**[中文研究入口](https://263311487-ux.github.io/Xun/docs/rrc-act-zh.html)** · [English research hub](https://263311487-ux.github.io/Xun/docs/rrc-act.html) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [中文理论](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [预注册草案](papers/RRC-ACT_preregistration_protocol_v1.0.md) · [传播与引用包](docs/propagation/README.md)
+**[中文研究入口](https://263311487-ux.github.io/Xun/docs/rrc-act-zh.html)** · [English research hub](https://263311487-ux.github.io/Xun/docs/rrc-act.html) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23146271) · [GitHub Release](https://github.com/263311487-ux/Xun/releases/tag/rrc-act-v2.2.1) · [中文理论](papers/RRC-ACT_v2.2.md) · [English manuscript](papers/Relational_Reflexive_Closure_v2.2.md) · [注册前冻结包](papers/registration_freeze/) · [历史预注册草案](papers/RRC-ACT_preregistration_protocol_v1.0.md) · [传播与引用包](docs/propagation/README.md)
 
 ---
 
