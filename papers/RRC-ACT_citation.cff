@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use RRC-ACT in your research, please cite the Zenodo record below."
-title: "Relational Reflexive Closure: A Testable Framework for Persistent Self-Models in Artificial Agents"
+title: "RRC-ACT v2.2.1: Relational Reflexive Closure Theory of Artificial Consciousness"
 abstract: >-
   RRC-ACT is a theory-and-methods framework asking whether relation-specific
   feedback causally changes long-horizon self-model continuity in artificial
@@ -25,7 +25,7 @@ preferred-citation:
   authors:
     - family-names: Song
       given-names: Jiaxin
-  title: "Relational Reflexive Closure: A Testable Framework for Persistent Self-Models in Artificial Agents"
+  title: "RRC-ACT v2.2.1: Relational Reflexive Closure Theory of Artificial Consciousness"
   year: 2026
   version: "2.2.1"
   doi: 10.5281/zenodo.23146271
