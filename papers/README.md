@@ -1,7 +1,8 @@
 # 论文索引 · Paper Index
 
-> Xun 仓库的全部论文：元数据、DOI、下载。引用请用 [references.bib](references.bib) 或 [CITATION.cff](../CITATION.cff)。
-> 所有 PDF 由 imprint-pdf 印刷级排版生成，通过 100/100 质检（文本可选、字体嵌入、PDF/UA、对比度合规）。
+> 当前研究：**RRC-ACT v2.2.1**，Jiaxin Song，公开、未同行评审的理论与方法预印本。[PDF](RRC-ACT_v2.2.1_preprint.pdf) · [DOI](https://doi.org/10.5281/zenodo.23146271) · [专用 BibTeX](RRC-ACT.bib) · [CITATION.cff](../CITATION.cff) · [证据与版本地图](../docs/research-status.md)。
+>
+> 以下为完整历史目录，作品的作者和 DOI 保持原样。历史统一论/架构及模拟不能替代 RRC-ACT 的真实验证；排版评分不等于科学审阅或 PDF/UA 认证。
 
 ## 统一论家族 · Unified Theory of Consciousness
 

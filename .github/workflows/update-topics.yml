@@ -1,9 +1,6 @@
 name: Update Topics
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/update-topics.yml'
 
 jobs:
   update:
@@ -18,15 +15,15 @@ jobs:
               repo: 'Xun',
               names: [
                 'ai-consciousness',
-                'autopoiesis',
                 'cognitive-architecture',
                 'metacognition',
                 'self-model',
-                'artificial-life',
                 'cognitive-science',
-                'digital-life',
-                'symbiotic-ai',
-                'symbiosis'
+                'causal-inference',
+                'reproducible-research',
+                'machine-consciousness',
+                'research-methods',
+                'rrc-act'
               ]
             });
             console.log('Topics updated: 10');

@@ -5,11 +5,13 @@ on:
     paths:
       - 'experiments/rrc_act/**'
       - 'papers/registration_execution/**'
+      - 'tools/**'
       - '.github/workflows/rrc-act-tools.yml'
   pull_request:
     paths:
       - 'experiments/rrc_act/**'
       - 'papers/registration_execution/**'
+      - 'tools/**'
   workflow_dispatch:
 
 jobs:
@@ -22,6 +24,8 @@ jobs:
           python-version: '3.11'
       - name: Run RRC-ACT integrity and analysis tests
         run: python3 -m unittest discover -s experiments/rrc_act/tests -v
+      - name: Check metric failure states and statistical coverage
+        run: python3 -m unittest discover -s tools/tests -v
       - name: Confirm real-run gate remains closed on templates
         run: |
           set +e

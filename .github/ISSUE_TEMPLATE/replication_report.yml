@@ -1,0 +1,34 @@
+name: Replication report / 复现报告
+description: Report a synthetic tool check, real pilot, or independent replication, including null results
+body:
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Data type / 数据类型
+      options:
+        - Synthetic or tutorial check (not empirical evidence)
+        - Real exploratory or pilot data
+        - Registered confirmatory study
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Versions and provenance / 版本与来源
+      description: Commit, protocol, registration receipt (if applicable), model/runtime, input hashes and public logs; never include credentials or private participant data
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Results and uncertainty / 结果与不确定性
+      description: Include denominators, failures, null results, confidence intervals and reproducible commands
+    validations:
+      required: true
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations and alternative explanations / 偏离与替代解释
+      description: Matching controls, exclusions, retries, protocol changes and unresolved limitations
+    validations:
+      required: true

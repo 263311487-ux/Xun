@@ -24,6 +24,8 @@ baixun/core/*.py
 *.bak
 __pycache__/
 *.pyc
+output/
+.playwright-cli/
 
 # 密钥和配置
 *.key

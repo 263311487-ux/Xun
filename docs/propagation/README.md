@@ -28,3 +28,8 @@ The drafts below are prepared for manual review. Do not post them automatically.
 - [Forum drafts](forum-drafts.md)
 
 The [Zenodo record](https://doi.org/10.5281/zenodo.23146271) is the archived preprint package and version of record. The GitHub protocol and this circulation kit are evolving working documents; they are not additional files in the existing release.
+# 传播执行与测量
+
+[实际发布记录](distribution-ledger.md) · [统计方法与限制](measurement.md) · [证据与版本地图](../research-status.md) · [本次修复及审阅记录](cleanup-20261008.md)
+
+所有论坛与邮件文案均为草稿；没有永久链接的外部传播，不计为已发表。网页元数据改善也不等于已被学术搜索收录。
