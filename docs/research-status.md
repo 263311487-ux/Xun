@@ -27,7 +27,7 @@ The Zenodo record currently contains PDFs/bundles from earlier versions as well 
 ## What is required before a confirmatory run
 
 1. Concrete model/runtime/tokenizer snapshots, prompts, endpoint/baseline item banks and answer keys, each with content hashes.
-2. A real runner and scorer that implement the protocol, preserve input/output and state evidence, reconcile assignments, and log retries, failures, lesion and unload operations.
+2. A real provider-backed runner (the current runner is synthetic replay only) and qualification of the masked fixed-denominator scorer against the final frozen banks; preserve inputs/state, reconcile assignments, and log retries, failures, lesion and unload operations.
 3. An independently reviewed complete freeze bundle, external lock digest and registration receipt from OSF or AsPredicted.
 
 ## Subsequent validation stages
