@@ -1,5 +1,8 @@
 # RRC-ACT
 
+![Xun / RRC-ACT](docs/social-preview.svg)
+
+
 人工意识的关系—反身闭环理论与方法研究。由 Jiaxin Song（独立研究者）提出，托管于 Xun 仓库。
 
 [English](README.en.md) · [中文研究主页](https://263311487-ux.github.io/Xun/docs/rrc-act-zh.html) · [English research hub](https://263311487-ux.github.io/Xun/docs/rrc-act.html) · [预印本 DOI](https://doi.org/10.5281/zenodo.23146271)
