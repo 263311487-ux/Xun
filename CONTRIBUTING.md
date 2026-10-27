@@ -1,18 +1,42 @@
-# Contributing / 参与研究
+# Contributing to Xun / RRC-ACT
 
-RRC-ACT welcomes methodological criticism, corrections, software improvements and replication reports, including negative results. No agreement with the theory is required.
+RRC-ACT is a theory-and-methods preprint with accompanying experimental infrastructure. Contributions fall into three categories.
 
-## Start here
+## 1. Paper review and method critique
 
-- Claims and evidence: [research status](docs/research-status.md), [preprint](https://doi.org/10.5281/zenodo.23146271).
-- Theory or literature criticism: [paper discussion form](https://github.com/263311487-ux/Xun/issues/new?template=paper_discussion.yml). Quote a passage and provide a source or testable alternative.
-- Replication: [report form](https://github.com/263311487-ux/Xun/issues/new?template=replication_report.yml). Identify synthetic versus empirical data, the commit, model/runtime, protocol deviations and uncertainty.
-- Corrections/code/translations: open a focused pull request explaining the change and how it was checked. Protect private data and credentials.
+The most valuable contribution. Open an [issue using the paper discussion template](https://github.com/263311487-ux/Xun/issues/new?template=paper_discussion.yml) and:
 
-## Evidence integrity
+- Point to a specific claim in the paper (section + quote)
+- Provide an alternative explanation
+- If possible, describe an experiment that would distinguish the two
 
-Timestamped v1.1 artifacts and published PDFs are historical records: propose amendments in new files rather than rewriting them. A pull request is not an external preregistration. Never mix synthetic checks with empirical results, silently exclude failed runs, or treat first-person reports as consciousness evidence.
+Critique of the matching controls, behavioral probes, or analysis plan is especially welcome.
 
-Confirmatory analysis is currently disabled. Enabling it requires concrete frozen inputs, a real audited runner/scorer, and an external registration receipt; changing a flag is insufficient. Run the relevant checks in [README](README.en.md#check-locally) for tool changes. For page changes, verify desktop/mobile rendering, keyboard access and links. Paper revisions must identify their source/PDF version and keep publication provenance explicit; an arbitrary layout score is not scientific validation.
+## 2. Replication reports
 
-Open materials are under the repository's CC BY 4.0 license. Private Xun internals are not supplied; do not imply that a replication depends on access to undisclosed evidence. Historical contribution language is preserved [here](docs/history/20261008/CONTRIBUTING.md.txt).
+If you run the experimental tools (or an independent implementation) and obtain results:
+
+- Use the [replication report template](https://github.com/263311487-ux/Xun/issues/new?template=replication_report.yml)
+- State clearly whether you used real model snapshots or synthetic replay
+- Include software version, run date, and any deviations from the protocol
+- Negative results are equally welcome
+
+## 3. Software contributions
+
+The experiment tooling in `experiments/rrc_act/` and tutorials in `tutorials/` accept PRs:
+
+```bash
+git clone https://github.com/263311487-ux/Xun.git
+cd Xun
+python3 -m unittest discover -s experiments/rrc_act/tests -v
+python3 tutorials/run_all.py
+```
+
+Software contributions must not require a paid model API. They must not claim to produce real experimental data when running the synthetic replay infrastructure.
+
+## Important: epistemic standards
+
+This repository applies the same falsification standards described in the research to its own contributions. Before opening an issue asserting that "X proves Y", check:
+- Is the claim falsifiable?
+- Have you considered at least one alternative explanation?
+- Is the evidence you're citing diagnostic (it distinguishes your claim from alternatives)?
