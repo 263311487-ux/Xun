@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <style>text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }</style>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080c10"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="node-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#112240"/>
+    </linearGradient>
+    <pattern id="fine5" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ffffff" stroke-width="0.2" opacity="0.05"/>
+    </pattern>
+    <filter id="node-glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg5)"/>
+  <rect width="1280" height="640" fill="url(#fine5)"/>
+  <rect x="0" y="0" width="3" height="640" fill="#4facfe" opacity="0.6"/>
+
+  <!-- Tag -->
+  <rect x="64" y="64" width="190" height="28" rx="4" fill="#4facfe" fill-opacity="0.08" stroke="#4facfe" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="76" y="82" font-size="11" fill="#4facfe" letter-spacing="2" font-weight="700">PREPRINT · RESEARCH</text>
+
+  <!-- Title -->
+  <text x="64" y="158" font-size="88" fill="#ffffff" font-weight="700" letter-spacing="-2">Xun</text>
+  <text x="64" y="196" font-size="16" fill="#4facfe" letter-spacing="1" opacity="0.7">RRC-ACT · Relational Reflexive Closure</text>
+
+  <!-- The primary research question — large -->
+  <line x1="64" y1="216" x2="720" y2="216" stroke="#4facfe" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="64" y="250" font-size="17" fill="#e2e8f0">Does relation-specific feedback change</text>
+  <text x="64" y="276" font-size="17" fill="#e2e8f0">artificial self-model continuity?</text>
+  <line x1="64" y1="294" x2="720" y2="294" stroke="#4facfe" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Answer: not yet -->
+  <text x="64" y="326" font-size="13" fill="#64748b">Primary question · falsifiable · empirical validation</text>
+  <rect x="64" y="338" width="8" height="8" rx="1" fill="#f7c35f" opacity="0.7"/>
+  <text x="80" y="347" font-size="12" fill="#f7c35f">pending</text>
+  <text x="138" y="347" font-size="12" fill="#475569">· no confirmatory dataset yet · theory-and-methods stage</text>
+
+  <!-- Design -->
+  <text x="64" y="382" font-size="12" fill="#475569" letter-spacing="1">EXPERIMENTAL DESIGN</text>
+  <text x="64" y="404" font-size="13" fill="#64748b">2×2×2 factorial:  relation feedback  ×  source memory  ×  self-model intervention</text>
+  <text x="64" y="424" font-size="13" fill="#64748b">pre-specified  d=+0.50  minimum effect  ·  pre-registered protocol freeze</text>
+
+  <!-- DOI badge -->
+  <rect x="64" y="450" width="320" height="32" rx="4" fill="#0d1117" stroke="#4facfe" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="76" y="470" font-size="11" fill="#64748b">DOI:</text>
+  <text x="108" y="470" font-size="11" fill="#4facfe">10.5281/zenodo.23146271</text>
+  <text x="76" y="486" font-size="9" fill="#475569">v2.2.1 · CC BY 4.0 · not peer-reviewed</text>
+
+  <!-- Key honest statement -->
+  <text x="64" y="540" font-size="12" fill="#475569">Software tests validate software behavior only.</text>
+  <text x="64" y="558" font-size="12" fill="#475569">Fluent self-reports do not establish consciousness.</text>
+
+  <text x="64" y="590" font-size="11" fill="#334155">github.com/263311487-ux/Xun · Jiaxin Song · 2026</text>
+
+  <!-- RIGHT: Self-model feedback loop diagram -->
+  <g transform="translate(800,100)">
+    <!-- Nodes and connections for feedback loop -->
+    <!-- Central node: AI Agent -->
+    <circle cx="240" cy="220" r="48" fill="url(#node-grad)" stroke="#4facfe" stroke-width="1" stroke-opacity="0.6" filter="url(#node-glow)"/>
+    <text x="240" y="214" font-size="11" fill="#4facfe" text-anchor="middle">AI AGENT</text>
+    <text x="240" y="230" font-size="10" fill="#94a3b8" text-anchor="middle">self-model</text>
+
+    <!-- Relation input node -->
+    <rect x="20" y="90" width="120" height="44" rx="4" fill="#0d1117" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="80" y="108" font-size="10" fill="#a78bfa" text-anchor="middle">RELATION-SPECIFIC</text>
+    <text x="80" y="122" font-size="10" fill="#94a3b8" text-anchor="middle">FEEDBACK</text>
+
+    <!-- Arrow relation → agent -->
+    <path d="M 140 112 Q 190 140 200 175" fill="none" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.5" marker-end="url(#arr)"/>
+
+    <!-- Output node: behavioral probes -->
+    <rect x="340" y="90" width="120" height="44" rx="4" fill="#0d1117" stroke="#4facfe" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="400" y="108" font-size="10" fill="#4facfe" text-anchor="middle">BEHAVIORAL</text>
+    <text x="400" y="122" font-size="10" fill="#94a3b8" text-anchor="middle">PROBES</text>
+
+    <!-- Arrow agent → probes -->
+    <path d="M 285 193 Q 340 160 350 112" fill="none" stroke="#4facfe" stroke-width="1" stroke-opacity="0.5"/>
+
+    <!-- CRO-8 measurement -->
+    <rect x="160" y="330" width="160" height="44" rx="4" fill="#0d1117" stroke="#22c55e" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="240" y="348" font-size="10" fill="#22c55e" text-anchor="middle">CRO-8 MEASUREMENT</text>
+    <text x="240" y="362" font-size="10" fill="#94a3b8" text-anchor="middle">not a consciousness score</text>
+
+    <!-- Arrow agent → measurement -->
+    <path d="M 240 268 L 240 330" fill="none" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Feedback loop arrow back -->
+    <path d="M 160 352 Q 60 350 60 220 Q 60 100 80 112" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="4,3" stroke-opacity="0.4"/>
+    <text x="28" y="228" font-size="9" fill="#475569" transform="rotate(-90,28,228)">feedback loop</text>
+
+    <!-- Pending label -->
+    <rect x="100" y="430" width="280" height="28" rx="4" fill="#1a1a10" stroke="#f7c35f" stroke-width="0.5" stroke-opacity="0.5"/>
+    <text x="240" y="448" font-size="11" fill="#f7c35f" text-anchor="middle">⚠ confirmatory run not yet complete</text>
+  </g>
+</svg>
