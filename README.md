@@ -2,6 +2,10 @@
 
 ![Xun / RRC-ACT](docs/social-preview.svg)
 
+[![Preprint](https://img.shields.io/badge/preprint-Zenodo-blue?style=flat-square)](https://doi.org/10.5281/zenodo.23146271)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![Python](https://img.shields.io/badge/python-3.10+-blue?style=flat-square)](https://www.python.org/)
+
 
 人工意识的关系—反身闭环理论与方法研究。由 Jiaxin Song（独立研究者）提出，托管于 Xun 仓库。
 
